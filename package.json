@@ -1,0 +1,27 @@
+{
+  "name": "jira-options-filler",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibuchanan/jira-options-filler"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ian Buchanan <ibuchanan@atlassian.com>",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "convict": "^6.2.1",
+    "convict-dotenv": "^1.2.0",
+    "convict-format-with-validator": "^6.2.0",
+    "cross-fetch": "^3.1.4",
+    "faker": "^5.5.3"
+  }
+}
