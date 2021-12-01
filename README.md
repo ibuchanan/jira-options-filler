@@ -21,7 +21,7 @@ ATLASSIAN_SITE_FIELD_ID=
 ATLASSIAN_SITE_CONTEXT_ID=
 ATLASSIAN_SITE_NUMBER_OF_NEW_OPTIONS=
 ```
-http://go.atlassian.com/cloud-dev
+
 <dl>
     <dt><code>ATLASSIAN_SITE_BASE_URL</code></dt>
         <dd>This script uses <a href="https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro#ad-hoc-api-calls">ad-hoc API calls</a> so the URL are the same pattern as UI URLs. For example, <code>https://your-domain.atlassian.net/</code>. The script does string concatenation for URL construction so be sure to include the trailing backslash. You will want to run this in a safe environment, like on a <a href="http://go.atlassian.com/cloud-dev">Cloud developer environment</a>.</dd>
