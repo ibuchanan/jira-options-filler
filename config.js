@@ -52,7 +52,7 @@ const schema = {
   numOptions: {
     doc: "The number of new options is the count of fake options to add.",
     format: "int",
-    default: null,
+    default: 1,
     env: "ATLASSIAN_SITE_NUMBER_OF_NEW_OPTIONS",
     arg: "numOptions",
   }

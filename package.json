@@ -1,6 +1,7 @@
 {
   "name": "jira-options-filler",
   "version": "1.0.0",
+  "description": "An example JavaScript script for filling up options in a Jira custom select list using the REST API.",
   "type": "commonjs",
   "main": "server.js",
   "repository": {
@@ -8,7 +9,7 @@
     "url": "https://github.com/ibuchanan/jira-options-filler"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Ian Buchanan <ibuchanan@atlassian.com>",
